@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
           children: [
             _getRowInput(),
             SizedBox(height: 20),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Получить'),
               onPressed: _getDay,
             ),
